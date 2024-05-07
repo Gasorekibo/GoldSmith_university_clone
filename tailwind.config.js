@@ -8,7 +8,8 @@ module.exports = {
       },
       colors:{
         warning:"#ff5800",
-        primary:"#376ebe"
+        primary:"#376ebe",
+        footer:"#333"
       },
       backgroundImage:{
         'hero': "url('/images/outline.png')",
