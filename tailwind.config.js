@@ -20,7 +20,10 @@ module.exports = {
         'corner':"url('/images/matt-connors-960.jpg')",
         'graduation':"url('/images/Class-of-2016_-Graduation-2016_10686-s.jpg')",
         'patron':"url('/images/Siddhesh-edit.jpg')",
-        'jane':"url('https://www.gold.ac.uk/apps/events/image.php?id=14969')"
+        'museum':"url('https://www.gold.ac.uk/apps/events/image.php?id=14969')",
+        'lgbtq':"url('https://www.gold.ac.uk/apps/events/image.php?id=14988')",
+        'paint':"url('https://www.gold.ac.uk/apps/events/image.php?id=14991')",
+        'jane':"url('/images/Jane-Dabate-edit.jpg')"
       },
       height: {
         "h-good": "678px"

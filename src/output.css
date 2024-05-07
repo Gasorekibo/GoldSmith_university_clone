@@ -638,6 +638,16 @@ video {
   margin-right: auto;
 }
 
+.my-5{
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.my-7{
+  margin-top: 1.75rem;
+  margin-bottom: 1.75rem;
+}
+
 .mb-10{
   margin-bottom: 2.5rem;
 }
@@ -660,6 +670,18 @@ video {
 
 .mt-7{
   margin-top: 1.75rem;
+}
+
+.mb-7{
+  margin-bottom: 1.75rem;
+}
+
+.mt-14{
+  margin-top: 3.5rem;
+}
+
+.mt-10{
+  margin-top: 2.5rem;
 }
 
 .flex{
@@ -750,6 +772,10 @@ video {
   align-items: center;
 }
 
+.justify-center{
+  justify-content: center;
+}
+
 .justify-between{
   justify-content: space-between;
 }
@@ -780,6 +806,22 @@ video {
 
 .gap-7{
   gap: 1.75rem;
+}
+
+.gap-2{
+  gap: 0.5rem;
+}
+
+.gap-8{
+  gap: 2rem;
+}
+
+.text-clip{
+  text-overflow: clip;
+}
+
+.rounded-sm{
+  border-radius: 0.125rem;
 }
 
 .border-2{
@@ -834,19 +876,13 @@ video {
   background-color: rgb(253 224 71 / var(--tw-bg-opacity));
 }
 
-.bg-gray-500{
+.bg-gray-700{
   --tw-bg-opacity: 1;
-  background-color: rgb(107 114 128 / var(--tw-bg-opacity));
+  background-color: rgb(55 65 81 / var(--tw-bg-opacity));
 }
 
-.bg-slate-400{
-  --tw-bg-opacity: 1;
-  background-color: rgb(148 163 184 / var(--tw-bg-opacity));
-}
-
-.bg-gray-300{
-  --tw-bg-opacity: 1;
-  background-color: rgb(209 213 219 / var(--tw-bg-opacity));
+.bg-opacity-60{
+  --tw-bg-opacity: 0.6;
 }
 
 .bg-corner{
@@ -869,6 +905,18 @@ video {
   background-image: url('/images/outline.png');
 }
 
+.bg-jane{
+  background-image: url('/images/Jane-Dabate-edit.jpg');
+}
+
+.bg-lgbtq{
+  background-image: url('https://www.gold.ac.uk/apps/events/image.php?id=14988');
+}
+
+.bg-patron{
+  background-image: url('/images/Siddhesh-edit.jpg');
+}
+
 .bg-research{
   background-image: url('/images/research-girl.jpg');
 }
@@ -881,8 +929,12 @@ video {
   background-image: url('/images/VRLatham.jpg');
 }
 
-.bg-patron{
-  background-image: url('/images/Siddhesh-edit.jpg');
+.bg-paint{
+  background-image: url('https://www.gold.ac.uk/apps/events/image.php?id=14991');
+}
+
+.bg-contain{
+  background-size: contain;
 }
 
 .bg-cover{
@@ -973,6 +1025,11 @@ video {
   padding-bottom: 1.25rem;
 }
 
+.px-8{
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
 .pt-14{
   padding-top: 3.5rem;
 }
@@ -1013,6 +1070,11 @@ video {
   line-height: 1.75rem;
 }
 
+.text-2xl{
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
 .font-bold{
   font-weight: 700;
 }
@@ -1039,6 +1101,10 @@ video {
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.opacity-60{
+  opacity: 0.6;
 }
 
 .focus\:ring-2:focus{
